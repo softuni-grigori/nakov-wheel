@@ -30,10 +30,13 @@ h1 {
     padding: 0;
 }
 
-.menu li {
+.menu-inline li {
     float: left;
     display: inline-block;
     margin-right: 5px;
+}
+
+.menu li {
     padding: 5px;
     border: 1px solid black;
     border-radius: 5px;
