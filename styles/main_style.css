@@ -24,33 +24,32 @@ h1 {
     text-align: center;
 }
 
-#menu {
+.menu {
     margin-top: 15px;
+    list-style: none;
+    padding: 0;
 }
 
-    #menu .menu_element {
-        display: inline-block;
-        border: 1px solid black;
-        margin-right: 0;
-        background-color: white;
-        border-radius: 5px;
-        width: 85px;
-        height: 30px;
-    }
-
-.menu_a {
-    width: 85px;
-    height: 30px;
+.menu li {
+    float: left;
     display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
     text-align: center;
+}
+
+.menu li:hover {
+    background-color: #AAAAAB;
+}
+
+.menu a {
+    color: black;
     font-family: Consolas;
     text-decoration: none;
-    color: black;
 }
-
-    .menu_a:hover {
-        background-color: #AAAAAB;
-    }
 
 #wheel_a {
     width: 105px;
