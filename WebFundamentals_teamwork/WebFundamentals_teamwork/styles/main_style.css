@@ -1,0 +1,74 @@
+﻿body {
+}
+
+header {
+    height: 130px;
+    border: 4px solid black;
+    border-radius: 14px;
+}
+
+    header #logo {
+        height: 125px;
+        width: 125px;
+        border-radius: 15px;
+    }
+
+    header #header_text {
+        display: inline;
+        font-family: 'Buxton Sketch';
+        font-weight: bolder;
+        font-size: 5em;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 380px;
+    }
+
+#menu {
+    margin-top: 15px;
+}
+
+    #menu .menu_element {
+        display: inline-block;
+        border: 1px solid black;
+        margin-right: 0;
+        background-color: white;
+        border-radius: 5px;
+        width: 85px;
+        height: 30px;
+    }
+
+.menu_a {
+    width: 85px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    font-family: Consolas;
+    text-decoration: none;
+    color: black;
+}
+
+    .menu_a:hover {
+        background-color: #AAAAAB;
+    }
+
+#wheel_a {
+    width: 105px;
+}
+
+#menu #btn_nakov_wheel {
+    width: 105px;
+}
+
+#content {
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+footer {
+    border-top: 2px solid black;
+    margin-top: 25px;
+}
