@@ -64,7 +64,7 @@ h1 {
 
 #content {
     width: 90%;
-    height: 600px;
+    min-height: 600px;
     margin: auto;
     margin-top: 25px;
     border-radius: 10px;
