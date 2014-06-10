@@ -1,5 +1,0 @@
-c:\users\svetoslav\documents\visual studio 2012\Projects\WebFundamentals_teamwork\WebFundamentals_teamwork\bin\WebFundamentals_teamwork.dll
-c:\users\svetoslav\documents\visual studio 2012\Projects\WebFundamentals_teamwork\WebFundamentals_teamwork\bin\WebFundamentals_teamwork.pdb
-c:\users\svetoslav\documents\visual studio 2012\Projects\WebFundamentals_teamwork\WebFundamentals_teamwork\obj\Debug\WebFundamentals_teamwork.csprojResolveAssemblyReference.cache
-c:\users\svetoslav\documents\visual studio 2012\Projects\WebFundamentals_teamwork\WebFundamentals_teamwork\obj\Debug\WebFundamentals_teamwork.dll
-c:\users\svetoslav\documents\visual studio 2012\Projects\WebFundamentals_teamwork\WebFundamentals_teamwork\obj\Debug\WebFundamentals_teamwork.pdb
