@@ -13,15 +13,19 @@ header {
         border-radius: 15px;
     }
 
-    header #header_text {
-        display: inline;
-        font-family: 'Buxton Sketch';
-        font-weight: bolder;
-        font-size: 5em;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 380px;
-    }
+.pull-left {
+    float: left;
+}
+
+.img-bordered {
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 #menu {
     margin-top: 15px;
