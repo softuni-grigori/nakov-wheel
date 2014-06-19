@@ -1,0 +1,86 @@
+﻿﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SoftUni Team Grigori 2014</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="scripts/jquery-2.1.1.min.js"></script>
+    <script src="scripts/jQueryRotate.js"></script>
+    </script>
+    <style>
+        #pointer_div {
+            width: 300px;
+            height: 300px;
+            margin-left: 300px;
+            margin-top: 50px;
+        }
+
+            #pointer_div img {
+                width: 300px;
+                height: 300px;
+                border-radius: 100%;
+            }
+
+        #popout_div {
+            background-color: black;
+            opacity: 0.8;
+            width: 950px;
+            height: 800px;
+            position: absolute;
+            border-radius: 10px;
+            z-index: 10;
+            left: 205px;
+            top: 310px;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div id="logo"></div>
+        <div id="header_text">Welcome to Nakov Wheel</div>
+    </header>
+
+    <div id="menu">
+        <div id="btn_nakov_wheel" class="menu_element">
+            <a href="" id="wheel_a" class="menu_a">NakovWheel</a>
+        </div>
+        <div id="btn_softuni" class="menu_element">
+            <a href="" id="softuni_a" class="menu_a">SoftUni</a>
+        </div>
+        <div id="btn_grigori" class="menu_element">
+            <a href="" id="grigori_a" class="menu_a">Grigori</a>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="pointer_div">
+            <img src="pointer.png" />
+        </div>
+    </div>
+
+    <div id="popout_div">
+        <p id="jokeholder"></p>
+    </div>
+
+    <footer>
+        <div id="footer_content">
+
+            <p id="license">
+                &copy; 2014 -
+                    <a title="Check out our GitHub organization page"
+                        href="https://github.com/softuni-grigori/"
+                        target="_blank">Grigori Team.</a>
+                All code licensed under
+                    <a title="Read the MIT license terms"
+                        href="https://github.com/softuni-grigori/nakov-wheel/blob/gh-pages/LICENSE"
+                        target="_blank">the MIT license.</a>
+            </p>
+        </div>
+    </footer>
+    <script src="scripts/database.js"></script>
+    <script src="scripts/rotation_script.js">
+        
+    </script>
+</body>
+</html>
+
