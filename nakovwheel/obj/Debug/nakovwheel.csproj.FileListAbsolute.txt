@@ -1,0 +1,10 @@
+C:\Users\ViolentlyHappy\Desktop\NakovWheel\nakovwheel\nakovwheel\bin\nakovwheel.dll
+C:\Users\ViolentlyHappy\Desktop\NakovWheel\nakovwheel\nakovwheel\bin\nakovwheel.pdb
+C:\Users\ViolentlyHappy\Desktop\NakovWheel\nakovwheel\nakovwheel\obj\Debug\nakovwheel.dll
+C:\Users\ViolentlyHappy\Desktop\NakovWheel\nakovwheel\nakovwheel\obj\Debug\nakovwheel.pdb
+C:\Users\ViolentlyHappy\Desktop\NakovWheel\nakovwheel\nakovwheel\obj\Debug\nakovwheel.csprojResolveAssemblyReference.cache
+C:\Users\Svetoslav\Desktop\nakovwheel\nakovwheel\bin\nakovwheel.dll
+C:\Users\Svetoslav\Desktop\nakovwheel\nakovwheel\bin\nakovwheel.pdb
+C:\Users\Svetoslav\Desktop\nakovwheel\nakovwheel\obj\Debug\nakovwheel.csprojResolveAssemblyReference.cache
+C:\Users\Svetoslav\Desktop\nakovwheel\nakovwheel\obj\Debug\nakovwheel.dll
+C:\Users\Svetoslav\Desktop\nakovwheel\nakovwheel\obj\Debug\nakovwheel.pdb
