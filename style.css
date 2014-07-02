@@ -1,0 +1,451 @@
+﻿@font-face {
+                font-family: 'sketch_rockwellregular';
+                src: url('sketchrockwell-bold-webfont.eot');
+                src: url('sketchrockwell-bold-webfont.eot?#iefix') format('embedded-opentype'),
+                     url('sketchrockwell-bold-webfont.woff') format('woff'),
+                     url('sketchrockwell-bold-webfont.ttf') format('truetype'),
+                     url('sketchrockwell-bold-webfont.svg#sketch_rockwellregular') format('svg');
+                font-weight: normal;
+                font-style: normal;
+
+            }
+
+body {
+	margin: 0px;
+	padding: 0px;
+    display: block; 
+    width: 100%;
+	height: 50%;
+    background-color: #f0f0f0
+}
+
+#wrapper {
+    width: 99.5%;
+    height: 100%;
+    background-image: url(./images/bgr.png);
+    background-repeat: no-repeat; 
+}
+ 
+header {
+    background-image: url(./images/ribbon.png); 
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 204px;
+	margin: auto;
+}
+ 
+#logo{
+	float: left;
+    margin-left: 15%;
+}
+ 
+img {
+	border: none;
+}
+ 
+nav {
+	height: 76px;
+	width: 1024px;
+	margin-top: 152px;
+	margin-left: 158px;
+}
+ 
+nav ul {
+	text-align: left;
+	margin-left: auto; /*was 55%*/
+	width: 1024px;
+}
+ 
+nav ul li{
+    display: inline;
+	padding: 0px;
+	margin: 0px;
+    font-family: sketch_rockwellregular; 
+    font-size: 25px; 
+}
+
+nav a {
+    text-decoration: none; 
+    padding: 10px 20px 0 5px; 
+
+}
+
+nav a:hover {
+                background-color: #b4f7d3; 
+                border-radius: 5px; 
+                font-size: 110%; 
+
+            }
+    nav a:active {
+        color: gray; 
+    }
+
+
+#main_content {
+     width: 500px; 
+     height: 500px; 
+     margin-left: 540px; 
+     text-align: center; 
+}
+#text_container {
+    margin-top: 100px; 
+    display: block; 
+    width: 50%; 
+    margin-left: auto; /*was 25%*/ 
+    text-align: justify; 
+    font-family: Helvetica; 
+    color: #1e1e1e; 
+}
+
+#softuni_text {
+   height: 344px; 
+}
+
+.profile {
+    margin-left: 300px; 
+    width: 60%; 
+    display: inline-block;
+    float: left;  
+    margin-left: 25%; 
+}
+figure {
+    display: inline-block; 
+    padding-right: 7%;
+    width: 25%;  
+    padding-left: 7%; 
+}
+
+.social_buttons {
+    display: inline-block; 
+    margin-left: 30px; 
+}
+    .social_buttons img {
+        display: inline-block; 
+        padding-right: 5px; 
+    }
+     .social_buttons a:hover {
+        -webkit-filter: grayscale(100%);  
+    }
+#pointer_div {
+    width: 500px;
+    height: 500px;
+    z-index: 1;
+    position: absolute;
+}
+
+    #pointer_div img {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        margin-top: 105px;
+    }
+
+#popout_div {
+    background-color: #b4f7d3;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;
+    left: 542px;
+    top: 227px;
+    display: none;
+    /*to make changes to popout_div styles, change "display" property to block*/
+}
+
+footer {
+	width: 100%;
+	height: 83px;
+    background-image: url(./images/footerribbon.png); 
+    display:inline-block;
+    margin-top: 10%;  
+    
+}
+
+
+#footer_container{
+    float:right; 
+    margin-right: 15px; 
+    font-family: sketch_rockwellregular; 
+}
+#validators {
+    display: inline-block; 
+    float: left; 
+    margin-left: 10px; 
+    margin-top: 20px; 
+}
+
+    #footer_container a {
+        text-decoration: none;
+    }
+        #footer_container a:hover {
+                border-radius: 5px; 
+                font-size: 110%; 
+                }
+    #footer_container a:active {
+        color: gray; 
+    }
+
+
+
+
+@media screen and (max-width: 1600px) { /* 1600px or smaller */
+ 	    #wrapper {	
+	    width: 99.5%;	
+        background-image: url(./images/bgr.png);
+	    margin: auto;
+    } 
+        header {
+        background-image: url(./images/ribbon1600.png); 
+	    background-repeat: repeat-x;
+	    width: 100%;
+	    height: 204px;
+	    margin: auto;
+        border: 2px solid rgba(0, 0, 0, 0.00);
+    }
+        footer {
+	    width: 100%;
+	    height: 83px;
+        background-image: url(./images/footerribbon1600.png); 
+        display:inline-block;
+        margin-top: 10%;    
+    }
+        #main_content {
+        width: 500px; 
+        height: 500px; 
+        margin-left: 35%; 
+        text-align: center; 
+    }
+ }
+
+@media screen and (max-width: 1024px) { /* 1024px or smaller */
+     #wrapper {
+	    width: 99.5%;	
+        background-image: url(./images/bgr1024.png);
+	    margin: auto;
+    } 
+    header {
+        background-image: url(./images/ribbon1024.png); 
+	    background-repeat: repeat-x;
+	    width: 100%;
+	    height: 150px;
+	    margin: auto;
+    }
+    footer {
+	    width: 100%;
+	    height: 50px;
+        background-image: url(./images/footerribbon1024.png); 
+        display:inline-block;
+        margin-top: 10%;    
+    }
+    #main_content {
+        width: 500px; 
+        height: 500px; 
+        margin-left: 2%; 
+        text-align: center; 
+        border: 2px solid rgba(0, 0, 0, 0.00);
+    }
+}
+
+@media screen and (max-width: 960px) { /* 960px or smaller */
+     #wrapper {	
+	    width: 99.5%;	
+        background-image: url(./images/bgr960.png);
+	    margin: auto;
+    } 
+    header {
+        background-image: url(./images/ribbon960.png); 
+	    background-repeat: repeat-x;
+	    width: 100%;
+	    height: 100px;
+	    margin: auto;
+    }
+    footer {
+	    width: 100%;
+	    height: 20px;
+        background-image: url(./images/footerribbon960.png); 
+        display:inline-block;
+        margin-top: 10%;    
+    }
+}
+
+@media screen and (max-width: 768px) { /* 768px or smaller */
+     #wrapper {	
+	    width: 99.5%;	
+        background-image: url(./images/bgr768.png);
+	    margin: auto;
+    }
+     header {
+        background-image: url(./images/ribbon768.png); 
+	    background-repeat: repeat-x;
+	    width: 100%;
+	    height: 80px;
+	    margin: auto;
+    } 
+    footer {
+	    width: 100%;
+	    height: 83px;
+        background-image: url(./images/footerribbon768.png); 
+        display:inline-block;
+        margin-top: 10%;    
+    }
+    nav {
+	    height: 76px;
+	    width: 100%;
+	    clear:both;
+    }
+ 
+    nav ul {
+	    text-align: left;
+	    clear:both; /*was 55%*/
+	    width: 1024px;
+    }
+ 
+    nav ul li{
+        display: block;
+	    padding: 0px;
+	    margin: 0px;
+        font-family: sketch_rockwellregular; 
+        font-size: 15px; 
+    }
+    #logo {
+        display: none;
+    }
+    #pointer_div img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        margin-top: 105px;
+    }
+}
+
+@media screen and (max-width: 640px) { /* 640px or smaller */
+    #wrapper {
+        width: 99.5%;
+        background-image: url(./images/bgr640.png);
+        margin: auto;
+    }
+
+    header {
+        background-image: url(./images/ribbon204.png);
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+    }
+
+    footer {
+        width: 100%;
+        height: 20px;
+        background-image: url(./images/footerribbon204.png);
+        display: inline-block;
+        margin-top: 10%;
+    }
+
+    nav {
+        height: 76px;
+        width: 100%;
+        clear: both;
+    }
+
+        nav ul {
+            text-align: left;
+            clear: both; /*was 55%*/
+        }
+
+            nav ul li {
+                display: block;
+                padding: 0px;
+                margin: 0px;
+                font-family: sketch_rockwellregular;
+                font-size: 10px;
+            }
+
+    #logo {
+        display: none;
+    }
+
+    #pointer_div img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-top: 105px;
+    }
+}
+
+@media screen and (max-width: 480px) { /* 480px or smaller */
+     #wrapper {
+	    width: 99.5%;	
+        background-image: url(./images/bgr480.png);
+	    margin: auto;
+    } 
+     header {
+        background-image: url(./images/ribbon480.png); 
+	    background-repeat: repeat-x;
+	    width: 100%;
+	    height: 50px;
+	    margin: auto;
+    }
+     footer {
+	    width: 100%;
+	    height: 83px;
+        background-image: url(./images/footerribbon480.png); 
+        display:inline-block;
+        margin-top: 10%;    
+    }
+     nav {
+	    height: 76px;
+	    width: 100%;
+	    clear:both;
+    }
+ 
+    nav ul {
+	    text-align: left;
+	    margin-left: auto; /*was 55%*/
+	    width: 1024px;
+    }
+ 
+    nav ul li{
+        display: block;
+	    padding: 0px;
+	    margin: 0px;
+        font-family: sketch_rockwellregular; 
+        font-size: 10px; 
+    }
+    #logo {
+        display: none;
+    }
+
+    #pointer_div img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin-top: 105px;
+    }
+}
+  
+
+@media screen and (max-width: 320px) { /* 320px or smaller */
+     #wrapper {
+	
+	    width: 99.5%;	
+        background-color: gray;
+	    margin: auto;
+    } 
+     header {
+        background-color: black; 
+	    background-repeat: repeat-x;
+	    width: 100%;
+	    height: 204px;
+	    margin: auto;
+    }
+     footer {
+	    width: 100%;
+	    height: 83px;
+        background-image: url(./images/footerribbon480.png); 
+        display:inline-block;
+        margin-top: 10%;    
+    }
+}
+  
+
